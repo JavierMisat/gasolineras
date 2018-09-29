@@ -1,3 +1,7 @@
 import {UI} from './ui.js';
+const ui = new UI();
 
-const mapa = new UI();
+document.addEventListener('DOMContentLoaded', () =>{
+    ui.mostrarGasolineras();
+});
+
